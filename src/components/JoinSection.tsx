@@ -42,7 +42,7 @@ const JoinSection = () => {
 
                   <div className="pt-4">
                     <h4 className="font-semibold text-white mb-2">Meeting Location</h4>
-                    <p className="text-white/80">Computer Science Building, Room 201<br />Every Wednesday at 6:00 PM</p>
+                    <p className="text-white/80">19F (Room TBA)<br />Every Wednesday at 6:00 PM</p>
                   </div>
                 </div>
 

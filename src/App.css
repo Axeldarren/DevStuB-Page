@@ -1,3 +1,21 @@
+@keyframes section-highlight {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34,197,94,0.18);
+    background: #f3fdf6;
+  }
+  60% {
+    box-shadow: 0 0 0 8px rgba(34,197,94,0.08);
+    background: #f3fdf6;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34,197,94,0);
+    background: inherit;
+  }
+}
+
+.animate-section-highlight {
+  animation: section-highlight 1.2s cubic-bezier(0.4,0,0.2,1);
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
