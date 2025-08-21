@@ -24,7 +24,7 @@ const JoinSection = () => {
                 {/* Contact Info */}
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold text-white mb-4">Get in Touch</h3>
-                  
+
                   <div className="space-y-4">
                     <div className="flex items-center gap-3 text-white/90">
                       <Mail className="w-5 h-5" />
@@ -42,15 +42,23 @@ const JoinSection = () => {
 
                   <div className="pt-4">
                     <h4 className="font-semibold text-white mb-2">Meeting Location</h4>
-                    <p className="text-white/80">19F (Room TBA)<br />Every Wednesday at 6:00 PM</p>
+                    <p className="text-white/80">19F (Room TBA)<br />TBA</p>
                   </div>
                 </div>
 
                 {/* Join Form */}
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold text-white mb-4">Join Our Community</h3>
-                  
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSez3cVBj5mbQaxeD72Y6FpxeDqeHU2md7hEvUQUOz1aagqzGw/viewform?embedded=true" width="640" height="1682">Loading…</iframe>
+
+                  <div className="w-full aspect-[9/16]">
+                    <iframe
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSez3cVBj5mbQaxeD72Y6FpxeDqeHU2md7hEvUQUOz1aagqzGw/viewform?embedded=true"
+                      className="w-full h-full border-0 rounded-lg"
+                      allowFullScreen
+                      loading="lazy"
+                    />
+                  </div>
+
 
                   <p className="text-sm text-white/70">
                     By joining, you'll get access to our Discord, GitHub organization, and all upcoming events.
