@@ -50,26 +50,7 @@ const JoinSection = () => {
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold text-white mb-4">Join Our Community</h3>
                   
-                  <div className="space-y-4">
-                    <Input 
-                      placeholder="Your Name" 
-                      className="bg-white/20 border-white/30 text-white placeholder:text-white/60"
-                    />
-                    <Input 
-                      placeholder="Your Email" 
-                      type="email"
-                      className="bg-white/20 border-white/30 text-white placeholder:text-white/60"
-                    />
-                    <Input 
-                      placeholder="Your University/School" 
-                      className="bg-white/20 border-white/30 text-white placeholder:text-white/60"
-                    />
-                  </div>
-
-                  <Button className="w-full bg-white text-primary hover:bg-white/90 font-semibold">
-                    Join DevStuB
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSez3cVBj5mbQaxeD72Y6FpxeDqeHU2md7hEvUQUOz1aagqzGw/viewform?embedded=true" width="640" height="1682">Loading…</iframe>
 
                   <p className="text-sm text-white/70">
                     By joining, you'll get access to our Discord, GitHub organization, and all upcoming events.

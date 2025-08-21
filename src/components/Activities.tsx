@@ -10,36 +10,20 @@ const Activities = () => {
   const activities = [
     {
       title: "Weekly Coding Sessions",
-      description: "Join our collaborative coding sessions where we work on real projects, solve challenges, and learn from each other.",
-      time: "Every Wednesday 6:00 PM",
-      location: "Computer Lab 201",
+      description: "Join our collaborative coding sessions where we work and discuss on study cases together.",
+      time: "TBA",
+      location: "TBA",
       tags: ["Coding", "Collaboration", "Learning"],
       color: "primary"
     },
     {
       title: "Tech Talks & Workshops",
       description: "Expert-led sessions on cutting-edge technologies, industry trends, and best practices in software development.",
-      time: "Bi-weekly Fridays 5:00 PM",
-      location: "Auditorium A",
+      time: "TBA",
+      location: "TBA",
       tags: ["Education", "Industry", "Networking"],
       color: "secondary"
     },
-    {
-      title: "Hackathons",
-      description: "24-48 hour intense coding competitions where teams build innovative solutions to real-world problems.",
-      time: "Monthly Weekends",
-      location: "Innovation Hub",
-      tags: ["Competition", "Innovation", "Prizes"],
-      color: "accent"
-    },
-    {
-      title: "Project Showcases",
-      description: "Present your projects, get feedback from peers and mentors, and celebrate the amazing work of our community.",
-      time: "Last Friday of Month",
-      location: "Main Hall",
-      tags: ["Presentation", "Feedback", "Recognition"],
-      color: "warning"
-    }
   ];
 
   const getColorClasses = (color: string) => {
